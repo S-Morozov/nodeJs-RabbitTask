@@ -5,6 +5,7 @@ const amqp = require('amqplib');
 const app = express();
 const port = 3000;
 
+
 // Function to establish a connection to RabbitMQ
 
 async function connectToRabbitMQ() {
